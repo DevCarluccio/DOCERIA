@@ -1,0 +1,39 @@
+@media screen and (max-width: 760px){
+    header {
+        flex-direction: column;
+    }
+
+    h1, #mm {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    main .card-container1, .card-container {
+        display: block;
+        flex-direction: column;
+        max-width: auto;
+    }
+
+    main .card {
+        max-width: 200px;
+    }
+
+    main .text-content {
+        width: 300px;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+
+
+    
+
+    
+}

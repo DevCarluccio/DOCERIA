@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-color: #f1de9c;
+    color:white;
+    font-family: "Poppins", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Pacifico;
+    font-size: 50px;
+    font-weight: 200;
+    color: #a22323;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 5rem;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+#mm {        
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    text-align: center;
+    align-items: center;
+    font-size: 5rem;
+    margin: 1.5rem; 
+}
+
+ul{
+    text-transform: uppercase;
+    margin: 10px;
+    letter-spacing: 1px;
+    
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #823521;
+    font-family: pacifico;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #a22323;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid #823521;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: #a22323;
+    color: white;
+}
+
+section > .img-banner, .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    width: 100%;
+    max-height: 500px;
+    border: 1px solid none;
+    border-radius: 10px;
+}
+
+.banner:hover {
+    opacity: 0.9;
+    box-shadow: 10px 10px 10px 0 rgb(31, 29, 29);
+    transition: 300ms 0.2s ease;
+}
+
+.quem-somos{
+    font-family: pacifico;
+    font-size: 1.4rem;
+    margin-top: 5rem;
+    text-align: center;
+    text-transform:capitalize;
+    color: #a22323;
+}
+
+.quem-somos-text-content {
+    font-family: pacifico;
+    font-size: 1rem;
+    margin-top: 2rem;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #a22323;
+}
+
+.como-chegar {
+    font-family: pacifico;
+    font-size: 1.4rem;
+    margin-top: 10rem;
+    text-align: center;
+    text-transform: capitalize;
+    color:#a22323;
+}
+
+.como-chegar-text-content {
+    font-family: pacifico;
+    font-size: 1rem;
+    margin-top: 2rem;
+    letter-spacing: 3px;
+    text-align: center;
+    color:#a22323
+    
+}
+
+.mapa-loja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+
+.mapa {
+    width: 1000px;
+    height: 350px;
+    border-radius: 5px;
+}
+
+.apresentacao-doces h2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: pacifico;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    color: #a22323;
+    margin: 8rem 0 2rem 0;
+}
+
+.apresentacao-doces > .doces {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.doce1, .doce2, .doce3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px;
+    max-width: 300px;
+    height: 280px;
+    border-radius: 20px;
+}
+
+.doce1:hover, .doce2:hover, .doce3:hover {
+    box-shadow: 5px 5px 5px 0 rgb(59, 56, 56);
+    rotate: 1deg;
+    transition: 800ms;
+}
+
+.footer .text-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10rem;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: #a22323;
+}
+
+

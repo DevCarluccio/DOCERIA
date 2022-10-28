@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body {
+    background-color: #f1de9c;
+    color:white;
+    font-family: "poppins", sans-serif;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    line-height: 20px;
+    font-family: Pacifico;
+    font-size: 50px;
+    font-weight: 200;
+    color: #a22323;
+}
+
+
+#title {
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+}
+
+#mm {
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    font-family: Pacifico;
+    font-size: 5rem;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    flex-direction: row;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #823521;
+    font-family: pacifico;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #a22323;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid #823521;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: #a22323;
+    color: white;
+}
+
+.selecione-produto {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 6rem;
+    color: #823521;
+    font-family: pacifico;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.adicionar-carrinho {
+    font-family: pacifico;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: #a22323;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.adicionar-carrinho:hover {
+    transition: 400ms 0s;
+    opacity: 0.8;
+}
+
+.adicionar-carrinho1 {
+    font-family: pacifico;
+    font-size: 12px;
+    padding: 5px;
+    text-transform: uppercase;
+    background-color: #a22323;
+    color: white;
+    margin: 15px 0 0 0;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.adicionar-carrinho1:hover {
+    transition: 400ms 0s;
+    opacity: 0.8;
+}
+
+/* Menu HAMBURGUER */
+
+.checkbox-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkbox {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+    transition: 400ms ease-in-out 0s;
+}
+
+
+.checkbox .trace {
+    width: 50px;
+    height: 2px;
+    background-color: #1E1E2A;
+    position: absolute;
+    border-radius: 4px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.checkbox .trace:nth-child(1) {
+    top: 26px;
+    transform: rotate(0);
+}
+
+.checkbox .trace:nth-child(2) {
+    top: 46px;
+    transform: rotate(0);
+}
+
+.checkbox .trace:nth-child(3) {
+    top: 66px;
+    transform: rotate(0);
+}
+
+#toggle {
+    display: none;
+}
+
+/* CARDS */
+
+.container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 0 0 0;
+}
+
+.card-container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    margin: 2rem 0 0 0;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    
+}
+
+
+.card{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 3rem 0 3rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1E1E2A;
+    background-image: url("../images/doce4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter:grayscale(0.5);
+    color:#a22323;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.card-text{
+    width: 40%;
+    letter-spacing: 2px;
+    color:#a22323;
+}
+
+
+.card-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.card-wrapper::before {
+    content: '';
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: block;
+    border: 1px solid #ffffff;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.card-wrapper h2 {
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin: 0;
+    transition: 0.5s ease-in-out;
+}
+
+
+.card-wrapper p {
+    font-size: 0;
+    visibility: visible;
+    opacity: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+}
+
+.card:hover {
+    filter: unset;
+}
+
+
+.card:hover > .card-wrapper::before {
+    height: 250px;
+    width: 250px;
+    opacity: 1;
+}
+
+.card:hover > .card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
+.text-content {
+    box-sizing: content-box;
+    color: #c2adad;
+    background-color: rgb(27, 26, 26);
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.text-content p {
+    margin: 5px 0px 0px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

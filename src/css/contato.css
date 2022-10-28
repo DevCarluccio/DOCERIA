@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #f1de9c;
+    color: #a22323; 
+    font-family: "poppins", sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4rem 0 4rem;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Pacifico;
+    font-size: 50px;
+    font-weight: 200;
+    color: #a22323;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: pacifico;
+    color: #a8764c;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 25px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+#mm {        
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 5rem;
+    margin-top: 1.5rem;  
+}
+
+ul{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #823521;
+    font-family: pacifico;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #a22323;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid #823521;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: #a22323;
+    color: white;
+}
+
+
+main.formulario  {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+}
+
+ h3, #fale-conosco{
+    font-family: "poppins", sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+    padding: 20px;
+
+}
+
+form.content-form {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+	margin: 40px 0;
+    background-color:#cebdae;
+    border: 0.3px solid #aa6464;
+    border-radius: 5px;
+}
+
+form label, form legend {
+	display: inline-block;
+    justify-content: center;
+    align-items: center;
+	font-size: 19px;
+	margin: 0 0 10px;
+}
+
+.como-prefere-nosso-contato, .qual-melhor-horario-para-contato, legend, label {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 4px;
+}
+
+.input-padrao {
+	display: flex;
+	margin: 0 0 30px;
+	padding: 10px 25px;
+	width: 90%;
+}
+
+label.checkbox {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+	margin: 3rem 0;
+}
+
+input.enviar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+	width:60%;
+    margin: 2rem auto;
+	padding: 15px;
+	background:#a22323;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: #ca1d1d;
+	transform: scale(1.02);
+}

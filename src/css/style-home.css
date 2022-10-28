@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+body {
+    background-color: #f1de9c;
+    color:white;
+    font-family: "poppins", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: Pacifico;
+    font-size: 50px;
+    font-weight: 200;
+    color: #a22323;
+}
+
+h2 {
+    font-size: 56px;
+    line-height: 10px;
+    font-family: pacifico;
+    color: #a8764c;
+}
+
+#title {
+    flex-direction: column;
+    line-height: 25px;
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+#mm {        
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 5rem;
+    margin-top: 1.5rem;  
+}
+
+ul{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a {
+    color: #823521;
+    font-family: pacifico;
+    font-size: 14px;
+}
+
+a:hover {
+    color: #a22323;
+    transition: 0.3s all;
+}
+
+#inscreva-se-btn {
+    border: 2px solid #823521;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover {
+    background-color: #a22323;
+    color: white;
+}
+
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+span {
+    color: #a8764c;
+}
+
+p{
+    font-size: 20px;
+    line-height: 20px;
+    max-width: 500px;
+    font-family: pacifico;
+    color: #a8764c
+}
+
+img {
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 100px;
+    margin-top: -100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"] {
+    height: 50px;
+    width: 50%;
+    background-color: #a22323;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover {
+    cursor: pointer;
+}
+
+input {
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
